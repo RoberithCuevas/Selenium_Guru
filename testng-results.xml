@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-09-21T16:54:39 BOT" name="Sanity" finished-at="2018-09-21T16:54:48 BOT" duration-ms="9625">
+    <groups>
+      <group name="mama">
+        <method signature="test.LogOut_Estafeta()[pri:2, instance:test@32eff876]" name="LogOut_Estafeta" class="test"/>
+        <method signature="test.Login_Estafeta()[pri:1, instance:test@32eff876]" name="Login_Estafeta" class="test"/>
+      </group> <!-- mama -->
+    </groups>
+    <test started-at="2018-09-21T16:54:39 BOT" name="test" finished-at="2018-09-21T16:54:48 BOT" duration-ms="9625">
+      <class name="test">
+        <test-method is-config="true" signature="Start()[pri:0, instance:test@32eff876]" started-at="2018-09-21T16:54:39 BOT" name="Start" finished-at="2018-09-21T16:54:43 BOT" duration-ms="4847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="Login_Estafeta()[pri:1, instance:test@32eff876]" started-at="2018-09-21T16:54:43 BOT" name="Login_Estafeta" finished-at="2018-09-21T16:54:44 BOT" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Estafeta -->
+        <test-method signature="LogOut_Estafeta()[pri:2, instance:test@32eff876]" started-at="2018-09-21T16:54:44 BOT" name="LogOut_Estafeta" finished-at="2018-09-21T16:54:45 BOT" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut_Estafeta -->
+        <test-method is-config="true" signature="End()[pri:0, instance:test@32eff876]" started-at="2018-09-21T16:54:45 BOT" name="End" finished-at="2018-09-21T16:54:48 BOT" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- test -->
+    </test> <!-- test -->
+  </suite> <!-- Sanity -->
+</testng-results>
